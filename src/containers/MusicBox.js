@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import AppTitle from '../components/AppTitle'
+import TopSongsList from '../components/TopSongsList'
 
 class MusicBox extends Component {
   constructor() {
@@ -27,6 +28,7 @@ class MusicBox extends Component {
     return (
       <div>
         <AppTitle/>
+        <TopSongsList topSongs={this.state.topSongs}/>
       </div>
     );
   }
