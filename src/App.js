@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MusicBox from './containers/MusicBox';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      
+      <MusicBox />
       </div>
     );
   }
